@@ -17,7 +17,7 @@ export default function Logo({ className = '', size = 'md' }: LogoProps) {
 
   return (
     <img 
-      src="public/nexivd-logo.jpeg"
+      src="/nexivd-logo.jpeg"
       alt="NexIVD Laboratories Logo"
       className={`${selectedSize} ${className} shrink-0 object-contain`}
     />
